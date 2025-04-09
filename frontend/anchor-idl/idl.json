@@ -1,5 +1,5 @@
 {
-  "address": "8PY1q5J3Aq2z7TBDLBrVjv77mYzjXSCz6iHQaFEFw9hY",
+  "address": "DapSDYWFCrWvAx8FvXcDpvNSNsjTYDoLqVf5tUdG24wA",
   "metadata": {
     "name": "counter",
     "version": "0.1.0",
@@ -9,7 +9,16 @@
   "instructions": [
     {
       "name": "decrement",
-      "discriminator": [106, 227, 168, 59, 248, 27, 150, 101],
+      "discriminator": [
+        106,
+        227,
+        168,
+        59,
+        248,
+        27,
+        150,
+        101
+      ],
       "accounts": [
         {
           "name": "user",
@@ -23,7 +32,15 @@
             "seeds": [
               {
                 "kind": "const",
-                "value": [99, 111, 117, 110, 116, 101, 114]
+                "value": [
+                  99,
+                  111,
+                  117,
+                  110,
+                  116,
+                  101,
+                  114
+                ]
               }
             ]
           }
@@ -35,7 +52,13 @@
             "seeds": [
               {
                 "kind": "const",
-                "value": [118, 97, 117, 108, 116]
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
               },
               {
                 "kind": "account",
@@ -53,7 +76,16 @@
     },
     {
       "name": "increment",
-      "discriminator": [11, 18, 104, 9, 104, 174, 59, 33],
+      "discriminator": [
+        11,
+        18,
+        104,
+        9,
+        104,
+        174,
+        59,
+        33
+      ],
       "accounts": [
         {
           "name": "user",
@@ -67,7 +99,15 @@
             "seeds": [
               {
                 "kind": "const",
-                "value": [99, 111, 117, 110, 116, 101, 114]
+                "value": [
+                  99,
+                  111,
+                  117,
+                  110,
+                  116,
+                  101,
+                  114
+                ]
               }
             ]
           }
@@ -79,7 +119,13 @@
             "seeds": [
               {
                 "kind": "const",
-                "value": [118, 97, 117, 108, 116]
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
               },
               {
                 "kind": "account",
@@ -99,7 +145,16 @@
   "accounts": [
     {
       "name": "Counter",
-      "discriminator": [255, 176, 4, 245, 188, 253, 124, 25]
+      "discriminator": [
+        255,
+        176,
+        4,
+        245,
+        188,
+        253,
+        124,
+        25
+      ]
     }
   ],
   "errors": [

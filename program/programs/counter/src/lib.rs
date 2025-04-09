@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 
 // Declare the program ID
-declare_id!("8PY1q5J3Aq2z7TBDLBrVjv77mYzjXSCz6iHQaFEFw9hY");
+declare_id!("8ZbyJdWCdkS3mfKJkfJeVsQwH6KmXT2CXMpMM96pmWWk");
 
 #[program]
 pub mod counter {
